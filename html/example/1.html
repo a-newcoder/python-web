@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<a href="//www.runoob.com/html/html-tutorial.html" accesskey="h">HTML 教程</a><br>
+<a href="//www.runoob.com/css/css-tutorial.html" accesskey="c">CSS 教程</a>
+<p contenteditable="true">这是一个可编辑段落。</p>
+<!--<div contextmenu="mymenu">
+
+<menu type="context" id="mymenu">
+  <menuitem label="Refresh"></menuitem>
+  <menuitem label="Twitter"></menuitem>
+</menu>
+
+</div>
+此段代码暂时只有火狐浏览器支持
+-->
+<ul>
+<li data-animal-type="bird">Owl</li>
+<li data-animal-type="fish">Salmon</li>
+<li data-animal-type="spider">Tarantula</li>
+</ul>
+
+<!--语法
+<element data-*="somevalue">-->
+<bdo dir="rtl">文本方向从右到左!</bdo>
+
+<p draggable="true">这是一段可移动的段落。请把该段落拖入上面的矩形。</p>
+<!--语法
+<element draggable="true|false|auto">-->
+<!-- 拖放例子-->
+<a href="2.html">拖放例子</a>
+
+<p hidden>这是一段隐藏的段落。</p>
+
+<p lang="fr">这是一个段落。</p>
+
+<p contenteditable="true" spellcheck="true">这是可编辑的段落。请试着编辑文本。</p>
+
+<h1 style="color:blue;text-align:center">这是一个标题</h1>
+<p style="color:green">这是一个段落。</p>
+
+<a href="//www.runoob.com//" tabindex="2"> runoob.com 菜鸟教程</a><br />
+
+<a href="//www.microsoft.com/" tabindex="1  ">Microsoft</a>
+<!--tabindex 属性规定当使用 "tab" 键进行导航时元素的顺序。-->
+
+<p><abbr title="世界卫生组织">WHO</abbr> 成立于 1948。</p>
+<p title="菜鸟教程">菜鸟教程</p>
+<!--title 属性规定关于元素的额外信息。
+
+这些信息通常会在鼠标移到元素上时显示一段工具提示文本（tooltip text）。-->
+
+<a href="http://www.runoob.com" target="_self">访问菜鸟教程！</a><br>
+
+The<abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<img src="幻奏（2）.png" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+
+<article>
+  <h1>Internet Explorer 9</h1>
+  <p> Windows Internet Explorer 9(缩写为 IE9 )在2011年3月14日21:00 发布。</p>
+</article>
+
+<p>My family and I visited The Epcot center this summer.</p>
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  您的浏览器不支持 audio 元素。
+</audio>
+<!--属性
+New ：HTML5 中的新属性。
+
+属性	值	描述
+autoplayNew	autoplay	如果出现该属性，则音频在就绪后马上播放。
+controlsNew	controls	如果出现该属性，则向用户显示音频控件（比如播放/暂停按钮）。
+loopNew	loop	如果出现该属性，则每当音频结束时重新开始播放。
+mutedNew	muted	如果出现该属性，则音频输出为静音。
+preloadNew	auto
+metadata
+none	规定当网页加载时，音频是否默认被加载以及如何被加载。
+srcNew	URL	规定音频文件的 URL。-->
+
+
+<!--<b>加粗-->
+
+<!--指定文本方向：-->
+
+<p>该段落文字从左到右显示。</p>
+<p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
+<!--blockquote元素中一般嵌套p元素，用于标记被引用的文本，这些引用文本并不是直接位于blockquote元素中。
+如果引文来自在线资源（包括自己网站中的其他地方），那么可以在<blockquote>标签的cite（引用）属性中指明原始来源的URL。
+通常浏览器会把blockquote元素呈现为一段左右两侧缩进(40px)的文本。-->
+<!--定义一个摘自另一个源的块引用：
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>-->
+
+<button></button>
+<!--属性
+New ：HTML5 中的新属性。
+
+属性	              值	    描述
+autofocusNew	autofocus	规定当页面加载时按钮应当自动地获得焦点。
+disabled	    disabled	规定应该禁用该按钮。
+formNew	        form_id	    规定按钮属于一个或多个表单。
+formactionNew	URL	        规定当提交表单时向何处发送表单数据。覆盖 form 元素的 action 属性。该属性与 type="submit" 配合使用。
+formenctypeNew	application/x-www-form-urlencoded
+                multipart/form-data
+                text/plain
+                            规定在向服务器发送表单数据之前如何对其进行编码。覆盖 form 元素的 enctype 属性。该属性与 type="submit" 配合使用。
+formmethodNew	get
+                post	    规定用于发送表单数据的 HTTP 方法。覆盖 form 元素的 method 属性。该属性与 type="submit" 配合使用。
+formnovalidateNew	formnovalidate	如果使用该属性，则提交表单时不进行验证。覆盖 form 元素的 novalidate 属性。该属性与 type="submit" 配合使用。
+formtargetNew	_blank
+                _self
+                _parent
+                _top
+                framename
+                            规定在何处打开 action URL。覆盖 form 元素的 target 属性。该属性与 type="submit" 配合使用。
+name	        name	    规定按钮的名称。
+type	        button
+                reset
+                submit 	    规定按钮的类型。
+value	        text	    规定按钮的初始值。可由脚本进行修改。-->
+
+<!--通过 <canvas> 元素来显示一个红色的矩形：-->
+
+<canvas id="myCanvas"></canvas>
+
+<script type="text/javascript">
+var canvas=document.getElementById('myCanvas');
+var ctx=canvas.getContext('2d');
+ctx.fillStyle='#FF0000';
+ctx.fillRect(0,0,80,100);
+</script>
+<!--标签定义及使用说明
+<canvas> 标签通过脚本（通常是 JavaScript）来绘制图形（比如图表和其他图像）。
+
+<canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
+
+HTML 4.01 与 HTML5之间的差异
+<canvas> 标签是 HTML5 中的新标签。-->
+
+
+
+<!--<caption> 标签带有标题的表格：-->
+
+<table border="1">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+<!--<caption> 标签定义表格的标题。
+
+<caption> 标签必须直接放置到 <table> 标签之后。
+
+您只能对每个表格定义一个标题。
+
+提示：通常这个标题会被居中于表格之上。然而，CSS 属性 "text-align" 和 "caption-side" 能用来设置标题的对齐方式和显示位置。-->
+
+<!--<colgroup> 和 <col> 标签为表格中的三个列设置了背景色：-->
+
+<table border="1">
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<!--<col> 标签规定了 <colgroup> 元素内部的每一列的列属性。
+
+通过使用 <col> 标签，可以向整个列应用样式，而不需要重复为每个单元格或每一行设置样式。
+<colgroup> 标签用于对表格中的列进行组合，以便对其进行格式化。
+
+通过使用 <colgroup> 标签，可以向整个列应用样式，而不需要重复为每个单元格或每一行设置样式。
+
+注释：只能在 <table> 元素之内，在任何一个 <caption> 元素之后，在任何一个 <thead>、<tbody>、<tfoot>、<tr> 元素之前使用 <colgroup> 标签。
+
+提示：如果想对 <colgroup> 中的某列定义不同的属性，请在 <colgroup> 标签内使用 <col> 标签。-->
+
+<!--下面是一个 <input> 元素，<datalist> 中描述了其可能的值：-->
+
+<input list="browsers">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+<!--带有项目和描述的描述列表：-->
+
+<dl>
+  <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+    <dd>White cold drink</dd>
+</dl>
+
+<!--<del> 标签定义文档中已删除的文本。-->
+<!--提示：您也可以看看 <ins> 标签如何标记先插入的文本。
+
+提示：<del> 和 <ins> 一起使用，描述文档中的更新和修正。浏览器通常会在已删除文本上添加一条删除线，在新插入文本下添加一条下划线。-->
+<!--属性
+属性	    值	                            描述
+cite	URL	                            规定一个解释了文本被删除的原因的文档的 URL。
+datetime	YYYY-MM-DDThh:mm:ssTZD	    规定文本被删除的日期和时间。-->
+
+<!--使用 <dialog> 元素：-->
+
+<table border="1">
+<tr>
+  <th>January <dialog open>This is an open dialog window</dialog></th>
+  <th>February</th>
+  <th>March</th>
+</tr>
+<tr>
+  <td>31</td>
+  <td>28</td>
+  <td>31</td>
+</tr>
+</table>
+<!--<dialog> 标签定义一个对话框、确认框或窗口。-->
+<!--属性
+New ：HTML5 中的新属性。
+
+属性	值	描述
+openNew	open	规定 dialog 元素是有效的，用户可以与它进行交互。-->
+
+
+<!--<div> 标签定义 HTML 文档中的一个分隔区块或者一个区域部分。
+
+<div>标签常用于组合块级元素，以便通过 CSS 来对这些元素进行格式化-->
+
+
+
+<!--带有项目和描述的描述列表：-->
+<!--
+<dl> 标签定义一个描述列表。
+<dl> 标签与 <dt> （定义项目/名字）和 <dd> （描述每一个项目/名字）一起使用。
+
+HTML 4.01 与 HTML5之间的差异
+在 HTML 4.01 中，<dl> 标签定义一个定义列表。
+
+在 HTML5 中，<dl> 标签定义一个描述列表。-->
+
+<!--标签定义及使用说明
+<dt> 标签定义一个描述列表的项目/名字。
+
+<dt> 标签与 <dl> （定义一个描述列表）和 <dd> （描述每一个项目/名字）一起使用。
+
+HTML 4.01 与 HTML5之间的差异
+在 HTML 4.01 中，<dt> 标签定义一个定义列表的条目。
+
+在 HTML5 中，<dt> 标签定义一个描述列表的项目/名字。-->
+
+<!--标签定义及使用说明
+<em> 标签是一个短语标签，用来呈现为被强调的文本。
+
+提示：我们并不反对使用这个标签，但是如果您只是为了达到某种视觉效果而使用这个标签的话，我们建议您使用 CSS ，这样可能会取得更丰富的效果。
+
+所有短语标签：
+
+标签	描述
+<em>	呈现为被强调的文本。
+<strong>	定义重要的文本。
+<dfn>	定义一个定义项目。
+<code>	定义计算机代码文本。
+<samp>	定义样本文本。
+<kbd>	定义键盘文本。它表示文本是从键盘上键入的。它经常用在与计算机相关的文档或手册中。
+<var>	定义变量。您可以将此标签与 <pre> 及 <code> 标签配合使用。-->
+
+<dl>
+  <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+    <dd>White cold drink</dd>
+</dl>
+
+<!--embed> 标签定义了一个容器，用来嵌入外部应用或者互动程序（插件）。
+
+注意：现在已经不建议使用 <embed> 标签了，可以使用 <img>、<iframe>、<video>、<audio> 等标签代替。-->
+
+<!--标签定义及使用说明
+<fieldset> 标签可以将表单内的相关元素分组。
+
+<fieldset> 标签会在相关表单元素周围绘制边框。
+
+提示和注释
+提示：<legend> 标签为 <fieldset> 元素定义标题。
+
+HTML 4.01 与 HTML5之间的差异
+HTML5 中新增了一些 <fieldset> 的新属性：disabled、form、name，HTML 4.01 中不支持这些属性。
+
+属性
+New ：HTML5 中的新属性。
+
+属性	值	描述
+disabledNew	disabled	规定该组中的相关表单元素应该被禁用。
+formNew	form_id	规定 fieldset 所属的一个或多个表单。
+nameNew	text	规定 fieldset 的名称。
+-->
+
+<!--标签定义及使用说明
+<figcaption> 标签为 <figure> 元素定义标题。
+
+<figcaption> 元素应该被置于 <figure> 元素的第一个或最后一个子元素的位置。-->
+
+<!--使用 <figure> 元素标记文档中的一个图像。<figure> 元素带有一个标题：-->
+
+<figure>
+  <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+  <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+</figure>
+
+<!--实例:文档的页脚：
+-->
+<footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p><time pubdate datetime="2012-03-01"></time></p>
+
+<!--  标签定义及使用说明
+<form> 标签用于创建供用户输入的 HTML 表单。
+
+<form> 元素包含一个或多个如下的表单元素：
+
+<input>
+<textarea>
+<button>
+<select>
+<option>
+<optgroup>
+<fieldset>
+<label>
+HTML 4.01 与 HTML5之间的差异
+HTML5 新增了两个新的属性：autocomplete 和 novalidate，同时不再支持 HTML 4.01 中的某些属性。
+
+HTML 与 XHTML 之间的差异
+在 XHTML 中，name 属性已被废弃。使用全局 id 属性代替。-->
+
+
+
+</footer>
+<!--<hgroup> 标签被用来对标题元素进行分组。
+
+当标题有多个层级（副标题）时，<hgroup> 元素被用来对一系列 <h1> - <h6> 元素进行分组。
+
+-->
+
+<!--<hr> 标签定义 HTML 页面中的主题变化（比如话题的转移），并显示为一条水平线。
+
+<hr> 元素被用来分隔 HTML 页面中的内容（或者定义一个变化）。-->
+
+<hr>
+
+<!--组合表单中的相关元素：-->
+
+<form>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text" size="30"><br>
+    Email: <input type="text" size="30"><br>
+    Date of birth: <input type="text" size="10">
+  </fieldset>
+</form>
+<!--The <legend> 元素为 <fieldset>元素定义标题。-->
+
+<!--<li> 标签定义列表项目。
+
+<li> 标签可用在有序列表（<ol>）、无序列表（<ul>）和菜单列表（<menu>）中。-->
+
+
+<a href="https://www.runoob.com/try/try.php?filename=tryhtml_areamap">带有可点击区域的图像映射：(map标签的用法)</a>
+<!--<meter> 标签定义度量衡。仅用于已知最大和最小值的度量。
+
+比如：磁盘使用情况，查询结果的相关性等。
+
+注意： <meter> 不能作为一个进度条来使用， 进度条 <progress> 标签。-->
+<!--  <meter> 是 HTML5 的新标签。
+
+属性
+New：HTML5 新属性。
+
+属性	值	描述
+formNew	form_id	规定 <meter> 元素所属的一个或多个表单。
+highNew	number	规定被界定为高的值的范围。
+lowNew	number	规定被界定为低的值的范围。
+maxNew	number	规定范围的最大值。
+minNew	number	规定范围的最小值。
+optimumNew	number	规定度量的最优值。
+valueNew	number	必需。规定度量的当前值。-->
+
+<nav>
+<a href="/html/">HTML</a> |
+<a href="/css/">CSS</a> |
+<a href="/js/">JavaScript</a> |
+<a href="/jquery/">jQuery</a>
+</nav>
+
+<!--noscript 元素用来定义在脚本未被执行时的替代内容（文本）。
+
+此标签可被用于 可识别 <noscript> 标签但无法支持其中的脚本 的浏览器。-->
+
+<select>
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+
+<!--<optgroup> 标签经常用于把相关的选项组合在一起。
+
+如果你有很多的选项组合, 你可以使用<optgroup> 标签能够很简单的将相关选项组合在一起。-->
+
+<!--disabled	disabled	规定禁用该选项组。
+label	text	为选项组规定描述-->
+
+<!--The <option> 标签定义下拉列表中的一个选项（一个条目）。
+
+<option> 标签中的内容作为 <select> 或者<datalist> 一个元素使用。-->
+<!--<select> 元素用来创建下拉列表。
+<select> 元素中的 <option> 标签定义了列表中的可用选项。-->
+
+
+
+
+
+
+</body>
+</html>
